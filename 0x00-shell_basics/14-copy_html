@@ -1,6 +1,2 @@
 #!/bin/bash
-dir=$PWD
-cd ..
-dir_2=$PWD
-cd $dir
-cp *.html $dir_2
+cp -i *html ..
