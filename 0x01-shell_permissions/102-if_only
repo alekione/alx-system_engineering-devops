@@ -1,6 +1,2 @@
 #!/bin/bash
-user=$(stat -c %U hello)
-if ("$user" == "guillaume")
-then
-chown betty hello
-fi
+chown --from=guillaume betty hello
