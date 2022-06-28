@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -l | awk '$1 ~/^d/ {count++} END {print count}'
