@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{{a..n},{p..z}} | awk '{i =1; while (i <= NF) {print $i; i++ }}'
+echo {a..z}{a..z} |tr ' ' '\n' | grep -v oo 
